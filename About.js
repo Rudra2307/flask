@@ -2,14 +2,16 @@ import React from 'react'
 function signup(){
     console.log("hi");
 }
-function About() {
-  return (
-    <div>
-      <p>Hey this is  Rudra Trivedi </p>
-      <br />
-      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem veniam in asperiores esse officiis, minima cum aliquam ipsa tempora commodi consequuntur nesciunt culpa necessitatibus illum, facere odio deleniti nemo magni?</p>
-    </div>
-  )
+class About extends React.Component {
+    render() {
+        return (
+            <div>
+                <h1>About</h1>
+                <button onClick={signup}>Sign Up</button>
+                <p>happy to have you</p>
+            </div>
+        )
+    }   
 }
 
 export default About
