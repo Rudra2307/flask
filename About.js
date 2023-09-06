@@ -1,5 +1,7 @@
 import React from 'react'
-
+function signup(){
+    console.log("hi");
+}
 function About() {
   return (
     <div>
